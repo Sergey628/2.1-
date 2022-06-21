@@ -4,9 +4,9 @@ public class Main {
         int ticket = 2100;  // Цена билета
         int bonus = 20;
         System.out.println(" Цена билета " + ticket);
-        int x;
-                x = ticket / bonus;
-        System.out.println(" Бонусных миль " + x);
+        int ratio;
+        ratio = ticket / bonus;
+        System.out.println(" Бонусных миль " + ratio);
 
     }
 
